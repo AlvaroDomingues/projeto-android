@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family:'Android' ;
+  src: url(fontes/idroid.otf);
+}
+:root {
+  --cor00: #c5ebd6;
+  --cor01:#83E1AD;
+  --cor02:#3DDC84;
+  --cor03:#2FA866;
+  --cor04:#1A5C37;
+  --cor05:#063d1e;
+  --fonte0: Arial, Helvetica, sans-serif;
+  --fonte1: 'Bebas Neue', cursive;
+  --fonte2: 'Android', sans-serif;
+
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family:var(--fonte0) ;
+  color: black;
+  background-color:var(--cor00) ; 
+
+}
+
+header{
+  background-image: linear-gradient(#3DDC84,#1A5C37 );
+  
+  text-align: center;
+  min-height: 150px;
+}
+
+header > h1{
+  font-family: var(--fonte0);
+  
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+}
+header > p{
+  color: white;
+  padding-top: 10px;
+  
+}
+
+nav{
+  background-color: var(--cor04);
+  padding: 10px;
+}
+
+nav a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav > a:hover{
+  background-color: var(--cor03);
+}
+
+main{
+  background-color: white;
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
+}
+main h1{
+  font-family: var(--fonte2);
+  color:var(--cor04);
+}
+main h2{
+  font-family: var(--fonte2);
+  color:var(--cor04);
+}
+main h3{
+  background-color: var(--cor03);
+  font-family: var(--fonte0);
+  color: white;
+  font-size: 15px;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 10px;
+  
+
+}
+
+main strong{
+  color: var(--cor04);
+  font-weight: bold;
+  padding: 2px;
+}
+
+main a{
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #3DDC84;
+  color: #063d1e;
+}
+
+main a:hover{
+  text-decoration: underline;
+  background-color: #c5ebd6;
+  color: blue;
+}
+
+#video{
+  background-color: #063d1e;
+  height: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: -10px;
+  margin-left: -10px;
+  position:relative
+}
+
+#video iframe{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+
+}
+
+footer{
+  background-color: #063d1e;
+  color: white;
+  text-align: center;
+}
+main p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+main ul{
+  padding-left: 20px;
+  columns:2 ;
+  line-height: 2;
+}
+main li{
+  padding-left: 10px;
+}
+img{
+  width: 100%;
+}
+main img.pequena{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.lista{
+  background-color: var(--cor00);
+}
